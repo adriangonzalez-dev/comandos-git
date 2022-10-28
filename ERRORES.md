@@ -6,6 +6,8 @@ The file will have its original line endings in your working directory
 
 #### Ejecutar:
 
-`git config core.autocrlf true`
+```
+git config core.autocrlf true
+```
 
 ---
