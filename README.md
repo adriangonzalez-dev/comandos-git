@@ -25,7 +25,8 @@ git help commit
 
 ## *Configuración del usuario y correo*
 ```
-git config --global user.name "adrian gonzalez" user.email "adri@mail.com"
+git config --global user.name "adrian gonzalez" user.
+email "adri@mail.com"
 ```
 
 #### El atributo --global configura el usuario para todos los proyectos que se inicien en el dispositivo. Solo retorna un mensaje en caso de error.
