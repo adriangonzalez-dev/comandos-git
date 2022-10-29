@@ -45,6 +45,24 @@ git commit -m "nombre del commit"
 ```
 
 ---
+## *Forma abreviada de añadir al stage y realizar commit*
+
+```
+git commit -am "nombre del commit"
+```
+---
+## *Modificar nombre del ultimo commit realizado*
+```
+git commit --amend -m "nombre actualizado"
+```
+---
+## *Agregar cambios al ultimo commit realizado*
+```
+git reset --soft HEAD^
+```
+#### HEAD apunta al ultimo commit
+#### ^ apunta a un commit anterior al último
+---
 ## *Mostrar los cambios en los archivos que no estan en el stage*
 
 ```
